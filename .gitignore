@@ -12,7 +12,6 @@
 *.swo
 
 # Environment variables files
-.env
 .env*
 
 # Logs
@@ -132,12 +131,15 @@ dist
 # TernJS port file
 .tern-port
 
-# lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # playwright
 test-results/
 playwright-report/
 playwright/.cache/
+
+# Planned work stays local
+*.local.md
+
+# Environment variable files
+.env*
+!.env.example
